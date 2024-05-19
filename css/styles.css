@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 html,
 body {
 	font-family: Arial, Helvetica, sans-serif;
@@ -44,7 +48,7 @@ h1 {
 
 h1 span.display-name {
 	font-size: 40px;
-	/* font-style: italic; */
+	font-style: italic;
 	border-right: #fff solid 5px;
 	padding-right: 60px;
 }
@@ -75,6 +79,10 @@ h1 span.display-desc {
 
 .project-title {
 	color: #777;
+}
+
+.project-screenshot {
+	width: 100%;
 }
 
 .footer {
