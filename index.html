@@ -1,74 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<meta charset="UTF-8" />
-	<title>Brazatanu Borah | Portfolio</title>
-	<link rel="stylesheet" href="css/styles.css" />
-</head>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Brazatanu Borah | Portfolio</title>
 
-<body>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
 
-	<div class="wrapper">
+	<body>
 
-		<div class="nav">
-			<a href="#about-me">About Me</a>
-			<a href="#my-projects">Projects</a>
-			<a href="#next-on-list">What's Next</a>
-		</div>
+		<div class="wrapper">
 
-		<div class="hero">
-			<img src="images/brazatanu-borah.jpg" alt="Headshot Of Brazatanu Borah" />
-		</div>
+			<nav class="nav">
+				<!-- <a href="#about-me">About Me</a> -->
+				<figure class="brand">
+					<a href="index.html"><img src="images/brazatanu_borah_logo.png" alt="" class="brnad-logo" /></a>
+					<figcaption>
+						<h1 class="hidden">Brazatanu Borah</h1>
+					</figcaption>
+				</figure>
+				<ul>
+					<li><a href="#my-projects">Projects</a></li>
+					<li><a href="#next-on-list">What's Next ... ?</a></li>
+				</ul>
+			</nav>
 
-		<div class="about" id="about-me">
-			<h2 class="section-header">About Me</h2>
-			<h1><span class="display-name">Brazatanu Borah</span><span class="display-desc">HTML &amp; CSS Coder</span></h1>
-			<p>I am a freelance digital graphic designer from India. Currently I'm learning web development. I had dabbled in HTML and CSS back sometime in 2019 and 2020, but was kind of like a hobby thing. I have completed basic HTML and now moving onto CSS. After that I'll be learning Bootstrap and front-end programming through JavaScript. Aiming to become a junior front-end UI-UX developer soon !</p>
-		</div>
+			<header>
+				<figure class="hero">
+					<img src="images/brazatanu-borah.jpg" alt="Headshot #next-on-list Brazatanu Borah" />
+				</figure>
+				<h2 class="display"><span class="display-name">Brazatanu Borah</span><span class="display-desc">HTML &amp; CSS Coder</span></h2>
 
-		<div class="projects" id="my-projects">
+				<section class="about" id="about-me">
+					<h2 class="section-header underline">About Me</h2>
+					<p>I am a freelance digital graphic designer from India. Currently I'm learning web development. I had dabbled in HTML and CSS back sometime in 2019 and 2020, but was kind of like a hobby thing. I have completed basic HTML and now moving onto CSS. After that I'll be learning Bootstrap and front-end programming through JavaScript. Aiming to become a junior front-end UI-UX developer soon !</p>
+				</section>
+			</header>
 
-			<h2 class="section-header">My Projects</h2>
-			<h3>(All projects are non-responsive; using only basic html tags and some elementary css properties.<br> All units
-				are in pixels.)</h3>
+			<section class="projects" id="my-projects">
+				<h2 class="section-header underline">Some Of My Best Projects</h2>
+				<p><strong>All projects are non-responsive and uses only basic HTML and CSS. There is no Javascript in any of the projects</strong></p>
 
-			<div class="project-1">
-				<a href="https://github.com/Brazatanu-Borah/single-column-html-email-template--non-responsive-" target="_blank"><img src="images/html-email-template.png" alt="" class="project-screenshot" /></a>
-			</div>
-			<h3 class="project-title">HTML Email Template</h3>
+				<div class="image-gallery">
+					
+					<figure class="project-panel">
+						<a href="https://github.com/Brazatanu-Borah/google-homepage-clone-html-css" target="_blank"><img src="images/google-homepage-clone.jpg" alt="" class="project-screenshot" />
+							<caption class="project-title">Google Homepage Clone</caption>
+						</a>
+					</figure>
+					<figure class="project-panel">
+						<a href="https://github.com/Brazatanu-Borah/pricing-panel-ui-html-css" target="_blank"><img src="images/pricing-card-panel-ui.jpg" alt="" class="project-screenshot" />
+							<caption class="project-title">Pricing Card Panel</caption>
+						</a>
+					</figure>
+					<figure class="project-panel">
+						<a href="https://github.com/Brazatanu-Borah/html-css-data-table" target="_blank"><img src="images/html-css-data-table.jpg" alt="" class="project-screenshot" />
+							<caption class="project-title">HTML Data Table Template</caption>
+						</a>
+					</figure>
 
-			<div class="project-2">
-				<a href="https://github.com/Brazatanu-Borah/restuarant-page--non-responsive-" target="_blank"><img src="images/restaurant-home-page.png" alt="" class="project-screenshot" /></a>
-			</div>
-			<h3 class="project-title">Simple Homepage Template</h3>
+					<figure class="project-panel">
+						<a href="https://github.com/Brazatanu-Borah/multi-column-html-email-template--non-responsive-" target="_blank"><img src="images/email-template-design-ui.jpg" alt="" class="project-screenshot" />
+							<caption class="project-title">HTML Email Design UI</caption>
+						</a>
+					</figure>
+					<figure class="project-panel">
+						<a href="https://github.com/Brazatanu-Borah/cnn-entertainment-homepage" target="_blank"><img src="images/cnn-entertainment-homepage-clone.jpg" alt="" class="project-screenshot" />
+							<caption class="project-title">CNN Entertainment Homepage Clone</caption>
+						</a>
+					</figure>
+				</div>
+			</section>
 
-			<div class="project-3">
-				<a href="https://github.com/Brazatanu-Borah/html-css-data-table" target="_blank"><img src="images/html-css-data-table.png" alt="" class="project-screenshot" /></a>
-			</div>
-			<h3 class="project-title">HTML Data Table Template</h3>
-		</div>
+			<section class="targets" id="next-on-list">
+				<h2 class="section-header underline">What's Next ...</h2>
+				<p><strong><em>As I keep learning new concepts and techniques I aim to continuously update my portfolio with new projects as well as improving the already existing ones.</em></strong></p>
+				<ul>
+					<li>Learn Flexbox and Responsive Design</li>
+					<li>Update Portfolio Site to be responsive using Flexbox and media queries</li>
+					<li>Update All projects also to be responsive using Flexbox and media queries</li>
+					<li>Add a Simple Responsive Landing Page Project to my portfolio</li>
+				</ul>
+			</section>
 
-		<div class="targets" id="next-on-list">
-			<h2 class="section-header">What's Next...</h2>
-			<p><strong>As I keep learning new concepts and techniques I aim to continuously update my portfolio with new projects as well as improving the already existing ones.</strong></p>
-			<ol>
-				<li>Learn Flexbox and Responsive Design</li>
-				<li>Update Portfolio Site to be responsive using Flexbox and media queries</li>
-				<li>Update All projects also to be responsive using Flexbox and media queries</li>
-				<li>Add a Simple Responsive Landing Page Project to my portfolio</li>
-			</ol>
-		</div>
+			<footer class="footer">
+				<small>Copyright &copy; &mdash; Brazatanu Borah</small>
+				<p class="socials">
+					<a href="https://x.com/BrazatanuB" target="_blank">
+						<img src="images/x_logo.svg" alt="An icon representing the logo for the social media company X" />
+					</a>
+				</p>
 
-		<div class="footer">
-			<p><small>Check out my profile on X</small></p>
-			<p>
-				<a href="https://x.com/BrazatanuB" target="_blank"><img src="images/twitter.png" alt="Twitter Logo" /></a>
-			</p>
-		</div>
+				</p>
+			</footer>
 
-	</div>
+		</div> <!-- end //wrapper -->
 
-</body>
+	</body>
 
 </html>
